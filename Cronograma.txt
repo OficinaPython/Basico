@@ -1,0 +1,77 @@
+﻿==== SEMESTRAL ====
+    Geral: Conceitos básicos de python, Funcionalidades e Bibliotecas(Módulos)
+    
+    -The Zen of Python
+    -O que precisa ser instalado: Ferramentas.
+    -Endentação
+    -Operadores
+    -Variáveis
+    -Entrada/Saída de Dados
+    
+    -Condicionais
+    -Laços de Repetições
+    -Strings: Métodos básicos
+    -Cores do Terminal (Pycharm)
+    -Manipulação de Listas
+    -Manipulação de Textos
+    -Funções + Lambdas
+    -Imports: Módulos
+
+==== SEMANAL ====
+
++   = Material feito
+++  = Material Checado e Pronto
+
+    1.Introdução
+        -Proposta do Projeto
+        -The Zen of Python
+        -História da Linguagem
+        -Ferramentas necessárias.
+        -Variáveis
+        *Criar um programa que conte história
+    
+    2.Aula 2: +
+        -Endentação
+        -Operadores
+        -Entrada/Saída de Dados
+        -Condicionais
+    
+    3.Aulas 3: 
+	-Manipulação de Textos        
+
+    4.Aula 4: + 
+	-Listas
+        -Laços de Repetições
+   
+        
+    
+    5.Aula 5:
+        -Funções
+        -Variável Global/Local
+	    -DocStrings
+	    -Parametros Opcionais
+    
+    6.Aula 6:
+        - Criação e utilização de Módulos
+       
+    
+    7.Aula 7:
+        -Jo ken po 
+    
+    8.Aula 8:
+        -GUI
+        -Tkinter
+    
+    9.Aula 9:
+        -Programa usando interface
+    
+    10.Aula 10: +
+        -Introdução OOP
+        -Criando Objeto
+        -Atributos      
+        -Métodos
+    
+    11.
+    12.
+    13.
+    14.
