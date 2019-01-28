@@ -1,5 +1,4 @@
-﻿==== SEMESTRAL ====
-    Geral: Conceitos básicos de python, Funcionalidades e Bibliotecas(Módulos)
+﻿Geral: Conceitos básicos de python, Funcionalidades e Bibliotecas(Módulos)
     
     -The Zen of Python
     -O que precisa ser instalado: Ferramentas.
@@ -42,36 +41,36 @@
     4.Aula 4: + 
 	-Listas
         -Laços de Repetições
-   
-        
-    
+   	
+          
     5.Aula 5:
-        -Funções
-        -Variável Global/Local
-	    -DocStrings
-	    -Parametros Opcionais
-    
+        -Dicionarios
+
     6.Aula 6:
-        - Criação e utilização de Módulos
-       
+       -Funções
+        -Variável Global/Local
+	-DocStrings
+	-Parametros Opcionais
     
+   
     7.Aula 7:
-        -Jo ken po 
+         - Criação e utilização de Módulos
     
     8.Aula 8:
-        -GUI
-        -Tkinter
+        -Jo ken po 
     
     9.Aula 9:
-        -Programa usando interface
+       -GUI
+       -Tkinter
     
     10.Aula 10: +
-        -Introdução OOP
+        -Programa usando interface
+    
+    11.
+	-Introdução OOP
         -Criando Objeto
         -Atributos      
         -Métodos
-    
-    11.
     12.
     13.
     14.
