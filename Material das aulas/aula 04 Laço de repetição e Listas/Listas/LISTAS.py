@@ -5,7 +5,7 @@ print('Adicionando elementos na lista: ',listamercado)
 
 print('\n')
 
-#extend adiciona elementos na lista porem ele se comporta diferente do append
+#O metodo extend adiciona elementos na lista porem ele se comporta diferente do append
 listamercado = ["ovos","leite","frango","chocolate"]
 listamercado.extend('ameixa')
 listamercado.append('uvapassa')
@@ -13,7 +13,7 @@ print(listamercado)
 
 print('\n')
 
-#função insert adiciona elementos em uma lista em uma posição especifica
+#O metodo insert adiciona elementos em uma lista em uma posição especifica
 listamercado = ["ovos","leite","frango","chocolate"]
 listamercado.insert(1,800)#na posição 1 vai aparecer o numero '800'
 print(listamercado)
@@ -65,13 +65,13 @@ print('Somando listas: ',listatotal)
 
 print('\n')
 
-#função index localiza e informa a posição de determinado elemento na lista
+#Metodo index localiza e informa a posição de determinado elemento na lista
 listamercado = ["ovos","leite","frango","uva"]
 print(listamercado.index('uva'))#a palavra uva esta na posição 3
 
 print('\n')
 
-#função reverse: inverte elementos da lista
+#Metodo reverse: inverte elementos da lista
 
 lista_exemplo1 = ['chocolate','pera','uva']
 lista_exemplo1.reverse()#inverteu a ordem da lista
@@ -79,7 +79,7 @@ print(lista_exemplo1)
 
 print('\n')
 
-#função sort ordena a lista em ordem numerica
+#Metodo sort ordena a lista em ordem numerica
 lista_num = [4,8,3,6,9,7]
 lista_num.sort()
 print(lista_num)
