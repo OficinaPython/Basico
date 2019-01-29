@@ -2,8 +2,7 @@
 
 class Pessoa:
 
-    # Método de construção: definido com '__init__'
-    # 1° Método a ser inicializado quando inicializada a classe
+    # Método de inicialização: definido com '__init__'
     def __init__(self, nome, idade, peso, altura):
         # Nome, idade, peso e altura são os parâmetros
         # E também são os atributos do objeto
@@ -15,7 +14,7 @@ class Pessoa:
         self.altura = altura
         
         
-    # Definido um Método da classe
+    # Definido um Método
     def mostrarDados(self):
             # Sempre precisa passar o parâmetro self
             # Pois é o objeto que chama o método/função

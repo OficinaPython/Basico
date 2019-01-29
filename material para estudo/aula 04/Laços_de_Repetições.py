@@ -1,6 +1,5 @@
-'''
-MATERIAL DE APOIO: LAÇOS DE REPETIÇÃO
-'''
+
+# Laços de Repetição
 
 '''Os laços de repetição no python sao representados com o comando 'for' e 'while'
     
