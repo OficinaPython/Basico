@@ -2,22 +2,65 @@
 
 # Criando um:
 dict1 =	{
-  "marca": "Ford",
-  "modelo": "Mustang",
-  "ano": 1964
+  'marca': 'Ford',
+  'modelo': 'Mustang',
+  'ano': 1964
 }
-print(dict1)
+print(dict1, '\n')
 
-'''
-clear()	Removes all the elements from the dictionary
-copy()	Returns a copy of the dictionary
-fromkeys()	Returns a dictionary with the specified keys and values
-get()	Returns the value of the specified key
-items()	Returns a list containing the a tuple for each key value pair
-keys()	Returns a list containing the dictionary's keys
-pop()	Removes the element with the specified key
-popitem()	Removes the last inserted key-value pair
-setdefault()	Returns the value of the specified key. If the key does not exist: insert the key, with the specified value
-update()	Updates the dictionary with the specified key-value pairs
-values()	Returns a list of all the values in the dictionary
-'''
+# copy() retorna uma cópia do dicionário
+dict2 = dict1.copy()
+print('Dicionário copiado:', dict2)
+
+# clear() remove todos os elementos do dicionário
+dict2.clear()
+print('Dicionário 2 apagado:', dict2, '\n')
+
+# fromkeys() cria um dicionário com as chaves e valores especificados
+chaves = ('k1','k2', 'k3')
+valores = 10
+dict2 = dict.fromkeys(chaves, valores)
+print('Dicionário criado: ',dict2)
+
+# get() retorna o valor de uma determinada chave
+valor = dict1.get('marca')
+print('Valor da chave marca:', valor, '\n')
+
+# items() retorna uma lista com tuplas contendo chave e seu valor
+for tuplas in dict1.items():
+	print('Chave e Valor:', tuplas)
+
+print('\n') 
+
+# keys() retorna uma lista contendo todas as chaves do dicionário
+chaves = dict1.keys()
+print('Chaves do Dicionário', chaves, '\n')
+
+dict2 = dict1.copy()
+# pop() remove elemento de uma especificada chave
+dict2.pop('marca')
+print('Deleta a chave marca e seu valor', dict2, '\n')
+
+# popitem() remove o último par de chave e valor
+dict2.popitem()
+print('Deleta ultíma chave e seu valor', dict2, '\n')
+
+# setdefault() retorna o valor da chave, caso não exista será criada
+# Com chave já criada:
+valor = dict1.setdefault('modelo','Mustang')
+print('Valor da chave existente:', valor)
+
+# Com chave não criada:
+valor = dict1.setdefault('cor', 'Preto')
+print('Valor da inexistente:', valor, '\n')
+
+# update() insere par de {chave : valor}
+dict1.update({'estado':'Novo'})
+print('Após comando update:', dict1, '\n')
+
+# values() retorna uma lista com todos os valores do dicionário
+valores = dict1.values()
+print(valores, '\n')
+# Pode ser feito assim:
+for valor in dict1.values():
+	print(valor)
