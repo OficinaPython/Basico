@@ -1,64 +1,47 @@
-from tkinter import *
+print('\033[1;33m-\033[m'*100)
+print('{:>70}'.format('\033[1;30mPYTHON THE BEST LANGUAGE\033[m'))# o ':>' é para alinhar o texto a direita
+print('\033[1;33m-\033[m'*100)
 
 
-janela = Tk()
+print('\n')
+escolha = ''
+while escolha != 7:
+    escolha = int(input('''\033[1;30mEscolha uma opção:\033[m 
 
-def btn_click():
-    lb['text'] = """A linguagem foi criada pelo Holandês 
-    Guido van Rossum em 1991
-    teve a sua inspiração em um programa de televisão britanico 
-    Monty Python’s Flying Circus"""
-def btn_click1():
-    lb['text'] = """Python é uma linguagem de programação de alto nível
-interpretada,orientada a objetos e funcional
-com principal foco em produtividade e legibilidade"""
+                        \033[1;34mQuem criou a Linguagem Python?                 [1]\033[m 
+                        \033[1;32mO que é a linguagem Python?                    [2]\033[m
+                        \033[1;36mDiferencial da linguagem Python                [3]\033[m
+                        \033[1;31mPorque aprender em Python?                     [4]\033[m
+                        \033[1;33mRelação do python com a cobra piton            [5]\033[m
+                        \033[1;35mPor que o logo é representado por duas cobras? [6]\033[m
+                                                                            '''))
 
-def btn_click2():
-    lb['text'] = """A syntaxe da linguagem Python é muito simples 
-em relação as outras linguagens,alem de ser 
-multiplataforma,ou seja,é executavel em diferentes 
-tipos de sistemas operacionais"""
+    print('\n')
 
-def btn_click3():
-    lb['text'] = """Python é uma linguagem que vem ganhando muito espaço
-nos ambientes corporativos, muito usada em inteligencia artificial, 
-um ramo que vem crescendo bastante nos ultimos anos, e pelo simples fato 
-de ser MUITOOOOO DIVERTIDO programar em python
-    """
-def btn_click4():
-    lb['text'] = """Por anos Guidor evitou vincular a linguagem 
-ao réptil (a cobra píton),porem editora O’Reilly — que possui
-a tradição de utilizar animais nas capas 
-de seus livros sugeriu colocar uma cobra píton na capa 
-do seu primeiro livro "Programming Python" """
+    if escolha == 1:
+        print('''\033[1;30m        A linguagem foi criada pelo Holandês Guido van Rossum em 1991, teve a
+    inspiração do nome em um programa de televisão britanico 'Monty Python’s Flying Circus\033[m\n''')
 
-def sair():
-    janela.destroy()
+    elif escolha == 2:
+        print('''\033[1;30m             Python é uma linguagem de programação de alto nível,interpretada
+    orientada a objetos e funcional com principal foco em produtividade e legibilidade\033[m\n''')
 
-botao = Button(janela,width=30, height=-40,bg='Red', text='Quem criou a Linguagem Python?', font=('arial', 20, 'bold'), command=btn_click)
-botao.place(x=10, y=70)
+    elif escolha == 3:
+        print('''\033[1;30mA syntaxe da linguagem Python é muito simples em relação as outras linguagens,alem de ser 
+    multiplataforma,ou seja,é executavel em diferentes tipos de sistemas operacionais.\033[m\n''')
 
-botao1 = Button(janela, width=30, height= -40,bg='Blue', text='O que é a linguagem Python?', font=('arial',20,'bold'),command= btn_click1)
-botao1.place(x=570, y= 70)
+    elif escolha == 4:
+        print('''\033[1;30m             Python é uma linguagem que vem ganhando muito espaços nos ambientes
+   corporativos, muito usada em inteligencia artificial, um ramo que vem crescendo bastante
+   nos ultimos anos, e pelo simples fato de ser \033[1;34mMUITOOOOO DIVERTIDO\033[m \033[1;30mprogramar em python\n''')
 
-botao2 = Button(janela, width=30, height= -40, bg='Green',text='Diferencial da linguagem Python', font=('arial',20,'bold'),command= btn_click2)
-botao2.place(x=570, y= 140)
+    elif escolha == 5:
+        print('''\033[1;30m   Por anos Guidor evitou vincular a linguagem ao réptil (a cobra píton), porem
+    editora O’Reilly — que possui a tradição de utilizar animais nas capas de seus livros 
+    sugeriu colocar uma cobra píton na capa do seu p4rimeiro livro "Programming Python"\033[m
+        ''')
 
-botao3 = Button(janela, width=30, height= -40,bg='Yellow', text='Porque aprender Python? ', font=('arial',20,'bold'),command=btn_click3)
-botao3.place(x=10, y= 140)
-
-botao4 = Button(janela, width=50, height= -40, bg='Gray',text='Por que o logo é representado por duas cobras? ', font=('arial',20,'bold'), command=btn_click4)
-botao4.place(x=100, y= 230)
-
-botao_sair = Button(janela, width= 30, height=-10, text='Sair', font=('arial', 10 , 'bold'), command=sair)
-botao_sair.place(x=400, y =570)
-
-lb = Label(janela, width=50, height=-10, font=('arial',20,'bold'))
-lb.place(x=90,y=400)
-
-lb2 = Label(janela, width= 50, height=-30, text='Python The Best Language',font=('arial',20,'bold'))
-lb2.place(x=140,y=10)
-
-janela.title('Teste01')
-janela.geometry('1100x600+100+80')
-janela.mainloop()
+    elif escolha == 6:
+        print('''   \033[1;30mUma das teorias é que o simbolo da linguagem, quando desfocado,é na verdade
+                                as iniciais 'Py' de Python\033[m
+        ''')
