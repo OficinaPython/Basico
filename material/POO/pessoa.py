@@ -2,7 +2,7 @@
 
 class Pessoa:
 
-    # Método de inicialização: definido com '__init__'
+    # Método de inicialização:
     def __init__(self, nome, idade, peso, altura):
         # Nome, idade, peso e altura são os parâmetros
         # E também são os atributos do objeto
@@ -30,7 +30,7 @@ class Pessoa:
     def maioridade(self):
 
         if self.idade < 18:
-            print('{0} é menor de idade'.format(self.nome))
+            print('{} é menor de idade'.format(self.nome))
         
         else:
             print('{} é maior de idade'.format(self.nome))

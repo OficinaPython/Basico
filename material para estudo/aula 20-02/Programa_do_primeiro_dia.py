@@ -11,7 +11,7 @@ while escolha != 7:
                         \033[1;34mQuem criou a Linguagem Python?                 [1]\033[m 
                         \033[1;32mO que é a linguagem Python?                    [2]\033[m
                         \033[1;36mDiferencial da linguagem Python                [3]\033[m
-                        \033[1;31mPorque aprender em Python?                     [4]\033[m
+                        \033[1;31mPor que aprender em Python?                    [4]\033[m
                         \033[1;33mRelação do python com a cobra piton            [5]\033[m
                         \033[1;35mPor que o logo é representado por duas cobras? [6]\033[m
                                                                             '''))
