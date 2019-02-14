@@ -21,7 +21,7 @@ Deveria haver uma – e preferencialmente apenas uma – maneira óbvia de se fa
 Embora aquela maneira possa não ser óbvia à primeira vista se você não for holandês.
 Agora é melhor que nunca.
 Embora nunca, seja muitas vezes melhor que pra já.
-Se a implementação é difícil de explicar, é uma má idéia.
-Se a implementação é fácil de explicar, pode ser uma boa idéia.
-Namespaces são uma idéia estupenda – vamos fazer mais deles!
+Se a implementação é difícil de explicar, é uma má ideia.
+Se a implementação é fácil de explicar, pode ser uma boa ideia.
+Namespaces são uma ideia estupenda – vamos fazer mais deles!
 '''
